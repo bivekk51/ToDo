@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">TodoList</div>
+        <div class="inputfield">
+            <label for="task">Task</label>
+            <input type="text" name="text" id="task">
+        </div>
+        <div class="button">
+            <input type="submit" value="AddTask" onclick="dataCheck()">
+        </div>
+        <div class="displayfield">     
+            <div class="title">TasksToDo</div>      
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
